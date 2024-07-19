@@ -28,6 +28,9 @@ function App() {
       <Team/>
       <Subscribe />
 
+      <a href="https://wa.me/233247792110"  className={showWaText ?"wa-text":"dont"}>Chat on Whatsapp<br /><i className="icofont-hand-down"></i></a>
+      <a href="https://wa.me/233247792110" className="whatsapp"><i className="icofont-whatsapp"></i></a>
+
       <div>
         <div className="footer h-23 clearfix text-white" style={{ "backgroundColor": '#34Ff23' }}></div>
         <nav className="navbar navbar-expand-sm bg-dark navbar-dark text-white d-flex justify-content-around">
