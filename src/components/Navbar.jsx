@@ -21,7 +21,7 @@ function Navbar() {
       <div>
             <div className="logo">
                 <img src={logo} alt=''/>
-            <a href="/">ECOMMERCE</a>
+            <a href="/">ESTGYIM FARMS</a>
         </div>
         <div className="side-box">
                 <div className="search">

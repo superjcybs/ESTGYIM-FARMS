@@ -458,6 +458,35 @@ nav .menu-btn,
     opacity: 1;
   }
 }
+/* ************************* TEAM ******************/
+.team {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  /* height: 1600px; */
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  position: relative;
+  background-image: url('../src/images/organic-bg-1.png');
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+.team .p-box img {
+  border-radius:1rem;
+  margin-bottom: 1rem;
+}
 
 /***************************** BRAND ***********************************/
 
@@ -535,7 +564,6 @@ nav .menu-btn,
   justify-content: center;
   align-items: center;
   margin: 10px 0px;
-  margin-top: 80px;
   padding: 30px 0px;
 }
 

@@ -4,6 +4,7 @@ import Product from './components/Product';
 import Subscribe from './components/Subscribe';
 import Brand from './components/Brand';
 import Contact from './components/Contact';
+import Team from './components/Team';
 
 function App() {
 
@@ -23,11 +24,12 @@ function App() {
       <Header />
       <Brand />
       <Product />
-      <Subscribe />
       <Contact />
+      <Team/>
+      <Subscribe />
 
-      <a href="https://wa.me/+97466930807"  className={showWaText ?"wa-text":"dont"}>Chat on Whatsapp<br /><i className="icofont-hand-down"></i></a>
-      <a href="https://wa.me/+97466930807" className="whatsapp"><i className="icofont-whatsapp"></i></a>
+      <a href="https://wa.me/233247792110"  className={showWaText ?"wa-text":"dont"}>Chat on Whatsapp<br /><i className="icofont-hand-down"></i></a>
+      <a href="https://wa.me/233247792110" className="whatsapp"><i className="icofont-whatsapp"></i></a>
 
       <div>
         <div className="footer h-23 clearfix text-white" style={{ "backgroundColor": '#34Ff23' }}></div>
